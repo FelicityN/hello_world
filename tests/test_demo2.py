@@ -1,4 +1,4 @@
-"""Tests teh mathematical functions definted in demo2.py
+"""Tests the mathematical functions defined in math.py
 """
 
 import pytest
@@ -6,6 +6,6 @@ import pytest
 def test_square():
     """Tests the squaring function"""
 
-    from demo.demo2 import square
+    from demo.demo import square
 
     assert 4 == square(2)

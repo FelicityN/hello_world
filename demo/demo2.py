@@ -1,9 +1,11 @@
-def square(a):
-    """Square is the number a.
 
+def square(x):
+    """Finds the square of the input.
+    
     Args:
-        a (float): The number to be squared.
-
-    Returns: 
+        x (float): The number to be squared.
+    Returns:
+        x2 (float): The squared number.
     """
-    pass
+
+    return x**2
