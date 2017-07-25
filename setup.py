@@ -22,7 +22,7 @@ setup(name='demo',
       long_description=read_md('README.md'),
       author='Felicity Nielson',
       author_email='felicity.nielson@gmail.com',
-      url='https://github.com/nielsonf/hello_world',
+      url='https://github.com/FelicityN/hello_world',
       license='MIT',
       install_requires=[
           "numpy",

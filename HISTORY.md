@@ -1,3 +1,5 @@
-#Revision history for demo
+# Revision history for "demo"
 
-##0.0.1
+## 0.0.0
+
+- Initial commit
