@@ -1,5 +1,5 @@
 import pytest
 
-def test_square():
-    from demo.demo import square
-    assert square(6) == 36
+def test_cube():
+    from demo.demo import cube
+    assert cube(2) == 8
