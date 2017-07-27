@@ -19,7 +19,7 @@ except ImportError:
 setup(name='demo',
       version='0.0.0',
       description='',
-      long_description=read_md('README.md'),
+      long_description= "" if not path.isfile("README.md") else read_md('README.md'),
       author='Felicity Nielson',
       author_email='felicity.nielson@gmail.com',
       url='https://github.com/FelicityN/hello_world',
