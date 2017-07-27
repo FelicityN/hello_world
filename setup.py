@@ -16,6 +16,8 @@ except ImportError:
     print("warning: pypandoc module not found, could not convert Markdown to RST")
     read_md = lambda f: open(f, 'r').read()
 
+from os import path
+    
 setup(name='demo',
       version='0.0.0',
       description='',
