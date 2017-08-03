@@ -5,12 +5,17 @@
 
 Welcome to demo's documentation!
 ================================
+This is a demonstration of how to build documentation
 
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
 
+.. automodule :: demo.demo
+   :members:
 
+.. automodule :: demo.demo2
+   :members:
 
 Indices and tables
 ==================
