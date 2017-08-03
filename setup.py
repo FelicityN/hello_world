@@ -16,13 +16,15 @@ except ImportError:
     print("warning: pypandoc module not found, could not convert Markdown to RST")
     read_md = lambda f: open(f, 'r').read()
 
+from os import path
+    
 setup(name='demo',
       version='0.0.0',
       description='',
-      long_description=read_md('README.md'),
+      long_description= "" if not path.isfile("README.md") else read_md('README.md'),
       author='Felicity Nielson',
       author_email='felicity.nielson@gmail.com',
-      url='https://github.com/nielsonf/hello_world',
+      url='https://github.com/FelicityN/hello_world',
       license='MIT',
       install_requires=[
           "numpy",
