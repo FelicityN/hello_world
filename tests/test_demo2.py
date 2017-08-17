@@ -1,4 +1,4 @@
-"""Tests teh mathematical functions definted in demo2.py
+"""Tests the mathematical functions defined in demo2.py
 """
 
 import pytest
